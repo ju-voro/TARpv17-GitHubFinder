@@ -6,7 +6,6 @@ function loadEventListeners() {
 
 function getObject() {
     const gitHub = new Github;
-    console.log(gitHub);
 
     gitHub.getUser('ju-voro')
     .then(data=> {
